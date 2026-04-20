@@ -1309,12 +1309,17 @@
       }
 
       window.launchConfetti = function () {
-        addParticles(400, true);
+        addParticles(2000, true);
         animate();
-        setTimeout(() => { addParticles(200, true); if (!confettiAnimId) animate(); }, 600);
-        setTimeout(() => { addParticles(150, false); if (!confettiAnimId) animate(); }, 1400);
-        setTimeout(() => { addParticles(100, false); if (!confettiAnimId) animate(); }, 2200);
-        setTimeout(() => { addParticles(80, false); if (!confettiAnimId) animate(); }, 3200);
+        setTimeout(() => { addParticles(1500, true); if (!confettiAnimId) animate(); }, 300);
+        setTimeout(() => { addParticles(1200, true); if (!confettiAnimId) animate(); }, 700);
+        setTimeout(() => { addParticles(1000, true); if (!confettiAnimId) animate(); }, 1200);
+        setTimeout(() => { addParticles(800, true); if (!confettiAnimId) animate(); }, 1800);
+        setTimeout(() => { addParticles(600, false); if (!confettiAnimId) animate(); }, 2500);
+        setTimeout(() => { addParticles(500, false); if (!confettiAnimId) animate(); }, 3300);
+        setTimeout(() => { addParticles(400, false); if (!confettiAnimId) animate(); }, 4200);
+        setTimeout(() => { addParticles(300, false); if (!confettiAnimId) animate(); }, 5200);
+        setTimeout(() => { addParticles(200, false); if (!confettiAnimId) animate(); }, 6500);
       };
     })();
 
